@@ -10,7 +10,7 @@ export class PortfolioComponent implements OnInit {
   socialList = [{
     url: environment.LINKEDIN,
     icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/linkedin.svg',
-    style: 'filter: invert(35%) sepia(14%) saturate(6468%) hue-rotate(173deg) brightness(93%) contrast(102%);'
+    style: 'filter: invert(35%) sepia(14%) saturate(6468%) hue-rotate(173deg) brightness(93%) contrast(102%);hover:box-shadow:0 0 20px 20px;'
   }, {
     url: environment.GITHUB,
     icon: 'https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/github.svg',

@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
-import { environment } from 'src/environments/environment';
 
 @Component({
-  selector: 'app-achievement',
-  templateUrl: './achievement.component.html',
-  styleUrls: ['./achievement.component.scss']
+  selector: 'app-technologies',
+  templateUrl: './technologies.component.html',
+  styleUrls: ['./technologies.component.scss']
 })
-export class AchievementComponent implements OnInit {
+export class TechnologiesComponent implements OnInit {
   developments = [{
     category: 'TECHNOLOGIES',
     list: [{

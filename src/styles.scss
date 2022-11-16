@@ -6,17 +6,3 @@ body ::-webkit-scrollbar {
     width: 2px;
     height: 2px;
 }
-
-*,
-*::after,
-*::before {}
-
-::root {
-    --bg-color: white;
-    --text-color: black;
-}
-
-[data-theme="dark"] {
-    --bg-color: black;
-    --text-color: white;
-}
