@@ -8,7 +8,7 @@ import { Blog } from '../app.interface';
   styleUrls: ['./blog.component.scss']
 })
 export class BlogComponent implements OnInit {
-  lstBlogs!: Blog[];
+  lstBlogs: Blog[] = [];
   constructor(private appService: AppService,) { }
 
   ngOnInit(): void {

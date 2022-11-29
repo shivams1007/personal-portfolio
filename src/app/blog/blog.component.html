@@ -3,13 +3,13 @@
         <div class="mx-auto container">
             <span role="contentinfo" data-aos="zoom-in-up">
                 <h1
-                    class="focus:outline-none text-center text-3xl lg:text-5xl tracking-wider text-gray-900 dark:text-white">
+                    class="focus:outline-none text-center lg:text-6xl md:text-6xl text-4xl tracking-wider text-gray-900 dark:text-white">
                     Latest from our Blog</h1>
             </span>
             <div aria-label="Group of cards" class="focus:outline-none mt-12 lg:mt-24">
                 <div class="flex gap-4 justify-center items-center">
                     <div class="focus:outline-none " aria-label="card 2" data-aos="slide-up" data-aos-duration="500"
-                        *ngFor="let item of lstBlogs">
+                        *ngFor="let item of lstBlogs | slice:0:4;">
                         <a href="{{item.url}}" target="_blank">
                             <img role="img" aria-label="gaming" class="focus:outline-none w-full"
                                 src="{{item.cover_image}}" [alt]="item.title" />
