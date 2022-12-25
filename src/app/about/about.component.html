@@ -1,5 +1,5 @@
 <section id="about">
-    <div class="container mx-auto mt-48 pt-24">
+    <div class="container mx-auto mt-48 mb-24 pt-24">
         <div class="text-center">
             <span class="font-bold lg:text-6xl md:text-6xl text-4xl border-b-4 border-black"
                 data-aos="fade-down-left">ABOUT</span>
@@ -9,7 +9,7 @@
             <div>
                 <img src="assets/image/about@3x.webp" class="mr-3 w-64 sm:w-96 md:w-96" alt="">
             </div>
-            <div class="col-span-2 sm:mt-10">
+            <div class="col-span-2 sm:mt-10 about-desc">
                 <h1 class="lg:text-2xl md:text-2xl text-xl font-bold">UPWORK</h1>
                 <h2 class="text-lg text-gray-400 font-semibold">Freelance</h2>
                 <p class="mt-2 mb-8 leading-8 text-gray-400">I am Shivam Singh, A Full Stack Developer having
@@ -33,10 +33,13 @@
                     looking forward to work with him again for improvement tasks and new projects. Wish you very all the
                     best Shivam."
                 </p>
-                <a [href]="resumeLink"
-                    class=" bg-sky-500 hover:bg-sky-600 font-bold text-white text-xl p-2 px-4 rounded-full"
-                    target="_blank">View
-                    Resume</a>
+                <div class="w-full flex justify-center">
+                    <a [href]="resumeLink"
+                        class=" bg-sky-500 hover:bg-sky-600 font-bold text-white text-xl p-2 px-4 rounded-full"
+                        target="_blank">
+                        View Resume
+                    </a>
+                </div>
             </div>
         </div>
     </div>

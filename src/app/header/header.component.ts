@@ -15,8 +15,10 @@ export class HeaderComponent implements OnInit {
   openMenu() {
     this.mobileMenu = !this.mobileMenu;
   }
+
   ngOnInit(): void {
     window.onscroll = () => {
+      if (this.mobileMenu) return;
       if (window.pageYOffset >= 0 && window.pageYOffset <= 700) {
         this.selectedIndex = 1;
       }
@@ -35,7 +37,7 @@ export class HeaderComponent implements OnInit {
       else if (window.pageYOffset >= 8825 && window.pageYOffset <= 9261) {
         this.selectedIndex = 6;
       }
-    }
+    };
   }
 
 
