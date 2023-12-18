@@ -15,13 +15,6 @@ export class ExperienceComponent implements OnInit {
     url: environment.UPWORK,
   },
   {
-    image: 'assets/image/helperplace.png',
-    heading: 'HELPERPLACE',
-    name: 'Full Stack Developer',
-    description: 'HelperPlace is the leading matching platform to connect Domestic Helpers, Maids and Employers. More than 200,000+ users are already using HelperPlace to connect with the right employer or to hire the perfect domestic helper. HelperPlace is offering a qualitative and innovative solution to connect and hire a foreign domestic helper in Hong Kong, Singapore and in the Middle East. We are proud to offer a free solution for all the domestic workers who are looking for a new job opportunity.',
-    url: 'https://www.helperplace.com',
-  },
-  {
     image: 'assets/image/joblist.png',
     heading: 'MYJOBLIST',
     name: 'Full Stack Developer',
