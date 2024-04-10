@@ -4,19 +4,16 @@
 
 export const environment = {
   production: false,
-  API_PATH: 'https://api.helperacademy.com/',
-  LINKEDIN: 'https://www.linkedin.com/in/shivam-singh-695b56180',
-  GITHUB: 'https://github.com/shivamsingh478',
+  LINKEDIN: 'https://www.linkedin.com/in/shivams1007',
+  GITHUB: 'https://github.com/shivams1007',
   DEV: 'https://dev.to/shivamblog',
   UPWORK: 'https://www.upwork.com/freelancers/~01062ec75169cd1be2',
   EMAIL: 'mailto:sshivam478@gmail.com',
   FACEBOOK: 'https://www.facebook.com/profile.php?id=100003307962920',
   TWITTER: 'https://twitter.com/6210773a93ac429',
-  INSTAGRAM: 'https://www.instagram.com/beingshivam_20/?next=%2F',
+  INSTAGRAM: 'https://www.instagram.com/shivams1007_/?next=%2F',
 };
 export const API_URL = {
-  ROUTEPATH: environment.API_PATH,
-
   SAVE_CONTACT: "https://mailthis.to/shivam",
 }
 /*
