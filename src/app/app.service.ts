@@ -18,7 +18,7 @@ export class AppService {
 
 
   public getBlog(): Observable<any> {
-    const url = 'https://dev.to/api/articles?username=shivamblog';
+    const url = 'https://dev.to/api/articles?username=shivams1007';
     return this.http.get<any>(url);
   }
 }
